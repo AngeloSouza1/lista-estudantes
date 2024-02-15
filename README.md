@@ -1,24 +1,11 @@
-# README
+# lista-estudantes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Aplicação para verificação dos estilos do framework bootstrap
 
-Things you may want to cover:
+#### Veja!
 
-* Ruby version
+ <a href="https://vimeo.com/913341884/8d0a6cd4a1">
+    <img src="https://img.shields.io/badge/VÍDEO DE FUNCIONALIDADE%20-darkblue" alt="Site">
+ </a>
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+---

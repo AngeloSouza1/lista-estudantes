@@ -1,0 +1,25 @@
+<!-- app/views/students/index.html.erb -->
+<p>
+<h4>List of students</h4>
+<hr>
+<ol>
+  <% @students.each do |student| %>
+    <li>
+      <%= student.name %>
+      <div class="details" style="display: none;">
+        Idade: <%= student.age %><br>
+        Curso: <%= student.course %>
+      </div>
+    </li>
+  <% end %>
+</ol>
+
+<script>
+  // Adiciona evento de clique para mostrar/ocultar detalhes
+  document.querySelectorAll('li').forEach(function(item) {
+    item.addEventListener('click', function() {
+      var details = this.querySelector('.details');
+      details.style.display = details.style.display === 'none' ? 'block' : 'none';
+    });
+  });
+</script>
